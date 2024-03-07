@@ -113,9 +113,11 @@ def input_common_env_info() -> dict:
     if not contract:
         contract = DEFAULT_DID_CONTRACT_ADDRESS
 
-    method_name: str = input(f"transaction method name(DEFAULT: {DEFAULT_DID_TX_METHOD_NAME}):")
+    method_name: str | None = input(f"transaction method name(#all: All method, DEFAULT: {DEFAULT_DID_TX_METHOD_NAME}):")
     if not method_name:
         method_name = DEFAULT_DID_TX_METHOD_NAME
+    elif method_name == "#all":
+        method_name = None
 
     return {"tracker_base_url": tracker_base_url, "contract": contract, "method_name": method_name}
 

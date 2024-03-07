@@ -33,7 +33,7 @@ Press key of menu: 1
 Enter information for transaction count.
 tracker base url(DEFAULT:https://tracker.lisbon.icon.community): 
 contract address(DEFAULT:cxdd0cb8465b15e2971272c1ecf05691198552f770): 2024-03-07
-transaction method name(DEFAULT: create):
+transaction method name(#all: All method, DEFAULT: create):
 date for count(DEFAULT: today): 
 ###########################################
 Request tx list ...
@@ -57,7 +57,7 @@ Press key of menu: 2
 Enter information for transaction count.
 tracker base url(DEFAULT:https://tracker.lisbon.icon.community): 
 contract address(DEFAULT:cxdd0cb8465b15e2971272c1ecf05691198552f770): 
-transaction method name(DEFAULT: create):
+transaction method name(#all: All method, DEFAULT: create):
 end date for count(DEFAULT: created date of contract): 20240301
 ###########################################
 Request tx list ...
